@@ -1,0 +1,9 @@
+apiVersion: kubernetes.example.com/v1alpha1
+kind: WebApp
+metadata:
+  name: example-webapp
+  namespace: default
+spec:
+  applicationName: example
+  environment: dev
+  image: "quay.io/avulaj/web-service-gin:latest"

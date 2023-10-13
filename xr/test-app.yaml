@@ -1,7 +1,0 @@
-apiVersion: example.com/v1
-kind: WebApplication
-metadata:
-  name: test-app
-spec:
-  replicas: 2
-  image: registry.example.com/app:v1.0
